@@ -1,8 +1,8 @@
 # Electricity–Carbon Market Empirical Analysis in R
 
-This repository contains a reproducible R-based empirical analysis of provincial electricity and carbon market data in China from 2013 to 2023.
+This repository contains an R-based empirical analysis of provincial electricity and carbon market data in China from 2013 to 2023.
 
-The project reproduces selected empirical results from research on carbon-price transmission to generator-side electricity tariffs. The workflow includes data validation, descriptive statistics, baseline regression analysis, and heteroskedasticity-robust inference.
+The project examines carbon-price transmission to generator-side electricity tariffs using an empirical regression framework. The workflow includes data validation, descriptive statistics, baseline regression analysis, and heteroskedasticity-robust inference.
 
 ## Research Question
 
@@ -85,6 +85,10 @@ Then run:
 `analysis.R`
 
 The script validates the dataset, estimates the models, and automatically generates the files in the `output/` directory.
+
+## Data Availability
+
+The underlying dataset is not included in this repository. The analysis code and aggregate outputs are provided.
 
 ## Reference
 
